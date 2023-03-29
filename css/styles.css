@@ -16,7 +16,11 @@
 
 body {
   font-family: roboto;
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2%;
   color: var(--dark);
+  
 }
 
 .page {
@@ -32,19 +36,49 @@ body {
   background-color: var(--white-background);
   color: var(--dark);
 }
-.nav {
-}
+/* .nav {
+} */
 .logo {
   color: var(--dark);
+  /* Studio */
+width: 71px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+
 }
 .web {
   color: var(--primary-brand);
+  width: 44px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
 }
 
 /* Site nav */
 
 .site-nav .link {
   color: var(--dark);
+  /* Studio */
+
+
+width: 48px;
+height: 24px;
+
+/* Body Medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 }
 
 .site-nav .link:hover,
@@ -52,13 +86,20 @@ body {
   color: var(--pressed-state);
 }
 
-.site-nav .link.current {
+/* .site-nav .link.current {
   color: red;
-}
+} */
 
 .auth-nav .mail,
 .auth-nav .tel {
   color: var(--text);
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
 
 .auth-nav .mail:hover,
@@ -75,11 +116,21 @@ body {
 
 .hero-title {
   color: var(--white-background);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px
 }
 .hero-button {
   background-color: var(--primary-brand);
   color: var(--white-background);
   cursor: pointer;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
 }
 .hero-button:hover {
   background-color: var(--pressed-state);
@@ -88,22 +139,94 @@ body {
 /* Sections */
 .section {
   color: var(--dark);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
 }
 .section-title {
   color: var(--text);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
 }
-
+.section-list {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px
+}
 /* Our team section */
 .our-team {
   background-color: var(--light);
 }
 
+
+/* Portfolio Page */
+
+/* Navigation filter buttons */
+
+.filter-button {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--primary-brand);
+  color: var(--white-background);
+
+}
+
+/* Portfolio Main */
+
+.portfolio-card {
+ width: 1128px;
+height: 420px;
+left: 156px;
+top: 288px;
+}
+
+.portfolio-type {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: var(--dark);
+}
+
+.portfolio-platform {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+color: var(--text);
+}
 /* Footer */
 
-.footer,
+.footer, .footer-text,
 .footer .footer-logo {
   width: 1440px;
   height: 312px;
   background-color: var(--dark);
   color: var(--light);
+  
+}
+.footer-logo {
+  /* Studio */
+
+  width: 71px;
+  height: 21px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
 }
