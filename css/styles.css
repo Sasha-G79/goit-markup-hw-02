@@ -38,12 +38,12 @@ body {
 /* .nav {
   text-decoration: none;
 } */
-.logo {
+.logo-link {
   color: var(--primary-brand);
   /* Studio */
 width: 71px;
 height: 21px;
-font-family: raleway, sans-serif;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -101,7 +101,7 @@ line-height: 24px;
   color: red;
 } */
 
-.auth-nav .mail,
+.auth-nav .info,
 .auth-nav .tel {
   color: var(--text);
 
@@ -114,8 +114,8 @@ line-height: 24px;
 letter-spacing: 0.02em;
 }
 
-.auth-nav .mail:hover,
-.auth-nav .mail:focus {
+.auth-nav .info:hover,
+.auth-nav .info:focus {
   color: var(--pressed-state);
 }
 
@@ -282,7 +282,7 @@ color: var(--text);
   color: var(--light);
   
 }
-.footer-logo {
+.footer-logo-link {
   /* Studio */
 color: var(--primary-brand);
   width: 71px;
