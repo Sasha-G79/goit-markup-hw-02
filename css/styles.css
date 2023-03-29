@@ -22,10 +22,10 @@ body {
   letter-spacing: 0.02em;
   }
 
-.page {
+/* .page {
   background-color: var(--white-background);
   color: var(--dark);
-}
+} */
 .section-list,
 .list {
   list-style: none;
@@ -38,7 +38,7 @@ body {
 /* .nav {
   text-decoration: none;
 } */
-.logo-link {
+.logo.link {
   color: var(--primary-brand);
   /* Studio */
 width: 71px;
@@ -74,7 +74,7 @@ line-height: 21px;
   font-style: normal;
 }
 
-.site-nav, .link {
+.site-nav, .nav-link {
   color: var(--dark);
   /* Studio */
 letter-spacing: 0.02em;
@@ -91,8 +91,8 @@ font-size: 16px;
 line-height: 24px;
 }
 
-.site-nav, .link:hover,
-.site-nav, .link:focus {
+.site-nav, .nav-link:hover,
+.site-nav, .nav-link:focus {
   color: var(--pressed-state);
 
 }
@@ -202,6 +202,7 @@ font-size: 16px;
 line-height: 1.5em;
 letter-spacing: 0.02em;
 color: var(--text);
+background-color: var(--white-background);
 }
 /* Our team section */
 .our-team {
@@ -217,6 +218,7 @@ line-height: 1.2em;
 text-align: center;
 letter-spacing: 0.02em;
 background-color: var(--white-background);
+color: var(--dark);
 }
 .staff-role. .team {
   color: var(--text);
@@ -284,7 +286,7 @@ color: var(--text);
   color: var(--light);
   
 }
-.footer-logo-link {
+.footer-logo.link {
   /* Studio */
 color: var(--primary-brand);
   width: 71px;
