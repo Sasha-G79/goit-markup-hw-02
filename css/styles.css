@@ -186,7 +186,7 @@ color: var(--dark);
 }
 
 .statement {
-  color: var(--text); 
+  color: var(--dark); 
   font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -218,8 +218,9 @@ text-align: center;
 letter-spacing: 0.02em;
 background-color: var(--white-background);
 }
-.staff-role {
+.staff-role. .team {
   color: var(--text);
+  background-color: var(--white-background);
 }
 
 /* Portfolio Page */
@@ -261,6 +262,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
+letter-spacing: 0.02em;
 color: var(--dark);
 }
 
