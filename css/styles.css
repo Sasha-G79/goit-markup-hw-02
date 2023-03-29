@@ -45,7 +45,7 @@ body {
   /* Studio */
 width: 71px;
 height: 21px;
-font-family: 'Raleway', sans-serif;
+font-family: raleway, sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -223,11 +223,12 @@ letter-spacing: 0.02em;
 
 /* Portfolio Main */
 
-.portfolio-card {
+.portfolio-card, .list{
  width: 1128px;
 height: 420px;
 left: 156px;
 top: 288px;
+text-decoration: none;
 }
 
 .portfolio-type {
