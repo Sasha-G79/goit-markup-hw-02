@@ -15,13 +15,12 @@
 /* Body */
 
 body {
+  color: var(--text);
   font-family: 'Roboto', sans-serif; 
   font-weight: medium;
   font-size: 20px;
   letter-spacing: 0.02em;
-  color: var(--text);
-  
-}
+  }
 
 .page {
   background-color: var(--white-background);
@@ -54,6 +53,10 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 }
+.logo.link {
+  text-decoration: none;
+}
+
 .studio {
   color: var(--dark);
   width: 44px;
@@ -145,7 +148,8 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.04em;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--pressed-state);
 }
 
@@ -158,12 +162,24 @@ font-weight: 700;
 font-size: 36px;
 line-height: 40px;
 }
+
+.section-one {  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.12em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);}
+
+
 .section-title {
   font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1em;
+line-height: 1.11em;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -171,7 +187,7 @@ color: var(--dark);
 }
 
 .statement {
-  color: var(--text);
+  color: var(--text); 
   font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -186,6 +202,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5em;
 letter-spacing: 0.02em;
+color: var(--text);
 }
 /* Our team section */
 .our-team {
@@ -200,6 +217,7 @@ font-size: 20px;
 line-height: 1.2em;
 text-align: center;
 letter-spacing: 0.02em;
+background-color: var(--white-background);
 }
 .staff-role {
   color: var(--text);
@@ -210,6 +228,13 @@ letter-spacing: 0.02em;
 /* Navigation filter buttons */
 
 .filter-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  
   color: var(--primary-brand);
   background-color: var(--light);
   cursor: pointer;
