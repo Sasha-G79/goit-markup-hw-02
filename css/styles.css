@@ -34,8 +34,7 @@ body {
 .header {
   background-color: var(--white-background);
   color: var(--dark);
- 
-}
+ }
 /* .nav {
   text-decoration: none;
 } */
@@ -75,7 +74,7 @@ line-height: 21px;
   font-style: normal;
 }
 
-.site-nav .link {
+.site-nav, .link {
   color: var(--dark);
   /* Studio */
 letter-spacing: 0.02em;
@@ -92,8 +91,8 @@ font-size: 16px;
 line-height: 24px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav, .link:hover,
+.site-nav, .link:focus {
   color: var(--pressed-state);
 
 }
