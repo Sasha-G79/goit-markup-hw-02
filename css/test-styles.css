@@ -13,17 +13,10 @@
   --modal-background: #fcfcfc;
 }
 /* Body */
-
-body {
-  font-family: roboto;
-  color: var(--dark);
-}
-
 .page {
   background-color: var(--white-background);
   color: var(--dark);
 }
-.section-list,
 .list {
   list-style: none;
 }
@@ -43,17 +36,9 @@ body {
 
 /* Site nav */
 
-.site-nav .link {
-  color: var(--dark);
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--pressed-state);
-}
-
-.site-nav .link.current {
-  color: red;
+  color: var(--dark);
 }
 
 .auth-nav .mail,
@@ -62,7 +47,8 @@ body {
 }
 
 .auth-nav .mail:hover,
-.auth-nav .mail:focus {
+.auth-nav .mail:focus,
+.auth-nav .mail:active {
   color: var(--pressed-state);
 }
 
@@ -71,6 +57,7 @@ body {
   width: 1440px;
   height: 600px;
   background-color: var(--hero-background);
+  text-align: center;
 }
 
 .hero-title {
@@ -79,12 +66,7 @@ body {
 .hero-button {
   background-color: var(--primary-brand);
   color: var(--white-background);
-  cursor: pointer;
 }
-.hero-button:hover {
-  background-color: var(--pressed-state);
-}
-
 /* Sections */
 .section {
   color: var(--dark);
@@ -101,7 +83,7 @@ body {
 /* Footer */
 
 .footer,
-.footer .footer-logo {
+.footer a {
   width: 1440px;
   height: 312px;
   background-color: var(--dark);
