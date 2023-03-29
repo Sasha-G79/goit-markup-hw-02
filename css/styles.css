@@ -16,6 +16,7 @@
 
 body {
   color: var(--text);
+  background-color: var(--white-background);
   font-family: 'Roboto', sans-serif; 
   font-weight: medium;
   font-size: 20px;
@@ -220,7 +221,7 @@ letter-spacing: 0.02em;
 background-color: var(--white-background);
 color: var(--dark);
 }
-.staff-role. .team {
+.staff-role, .team {
   color: var(--text);
   background-color: var(--white-background);
 }
@@ -274,6 +275,7 @@ color: var(--dark);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
 color: var(--text);
 }
 /* Footer */
@@ -300,4 +302,8 @@ color: var(--primary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
 }
