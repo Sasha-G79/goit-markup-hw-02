@@ -26,13 +26,9 @@ body {
 }
 /* Header */
 
-/* .nav {
-  text-decoration: none;
-} */
 .logo.link {
-  color: var(--primary-brand);
-  /* Studio */
-
+   /* Studio */
+ color: var(--primary-brand);
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
@@ -47,9 +43,7 @@ text-decoration: none;
 }
 
 .studio {
-  color: var(--dark);
-
-
+color: var(--dark);
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
@@ -64,38 +58,23 @@ line-height: 1.17;
 }
 
 .nav-link {
-  color: var(--dark);
-  /* Studio */
+color: var(--dark);
 letter-spacing: 0.02em;
 line-height: 1.5;
-text-decoration: none;
-
-
-/* Body Medium */
-
-/* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.17;
 }
 
 .site-nav, .nav-link:hover,
 .site-nav, .nav-link:focus {
-  color: var(--pressed-state);
+color: var(--pressed-state);
 
 }
 
-/* .site-nav .link.current {
-  color: red;
-} */
-
 .auth-nav .info,
 .auth-nav .tel {
-  color: var(--text);
-
-
-/* font-family: 'Roboto', sans-serif; */
+color: var(--text);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -116,8 +95,7 @@ letter-spacing: 0.02em;
 
 .hero-title {
   color: var(--white-background);
-  /* font-family: 'Roboto', sans-serif; */
-font-style: normal;
+ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -147,7 +125,6 @@ letter-spacing: 0.04em;
 }
 
 .section-one {
-  /* font-family: 'Roboto', sans-serif; */
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -159,7 +136,6 @@ letter-spacing: 0.04em;
 
 
 .section-title {
-  /* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -172,7 +148,6 @@ color: var(--dark);
 
 .statement {
   color: var(--dark); 
-  /* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -180,7 +155,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .statement-description {
-  /* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -196,7 +170,6 @@ background-color: var(--white-background);
 }
 
 .staff-name {
-  /* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -233,7 +206,6 @@ letter-spacing: 0.02em;
 .filter-button:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
-
 }
 
 /* Portfolio Main */
@@ -243,7 +215,6 @@ text-decoration: none;
 }
 
 .portfolio-type {
-  /* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -253,9 +224,6 @@ color: var(--dark);
 }
 
 .portfolio-platform {
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-style: normal;
-  font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
